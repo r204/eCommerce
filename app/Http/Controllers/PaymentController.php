@@ -115,7 +115,6 @@ class PaymentController extends Controller
                 'status' => $status,
             ]
         );
-
         return response()->json(['message' => 'Transaksi Berhasil'], 200);
     }
 }
