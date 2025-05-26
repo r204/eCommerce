@@ -10,7 +10,6 @@ use App\Models\Payment;
 use App\Models\Shipping;
 use Illuminate\Support\Facades\DB;
 
-
 class CategoryController extends Controller
 {
     //
