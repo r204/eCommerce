@@ -7,7 +7,7 @@ use App\Http\Controllers\PaymentController;
 // ===================
 // Halaman Utama
 // ===================
-Route::get('/', function () {
+Route::get('/public/', function () {
     return view('welcome');
 })->name('home');
 
